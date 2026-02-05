@@ -1,0 +1,38 @@
+header{
+    background: url(Image/10_36mm_rolex_bust_downs_700328fe-c4e9-4e28-b987-af1d7ee1e416.jpg);
+    padding: 100px;
+    background-size: cover;
+}
+
+nav{
+    background: rgb(23, 138, 138);
+}
+
+nav a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+    color: black;
+}
+
+nav a:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+main{
+    padding-left: 10px;
+}
+
+h1{
+    font: 30px verdana;
+    font-weight: bold;
+    color: darkblue;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

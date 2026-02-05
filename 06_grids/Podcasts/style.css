@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#podcasts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "imga imgb txtb"
+    "imga imgc txtc"
+    "txta imgd txtd"
+    "txta imge txte";
+}
+
+#imga{
+    grid-area: imga;
+    
+}

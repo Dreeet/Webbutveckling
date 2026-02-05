@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+header{
+    background: green;
+    color: antiquewhite;
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    color: antiquewhite;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h3{
+    margin: 10px 0 0 0;
+}
+
+nav{
+    background: antiquewhite;
+}
+
+nav a{
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    background: antiquewhite;
+}
+
+nav a:hover{
+    background: lightgoldenrodyellow;
+}
+
+main{
+    display: flex;
+}
+
+article, aside{
+    padding: 10px;
+}
+
+article{
+    flex: 2;
+    background: antiquewhite;
+}
+
+.FTC{
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.FTC span{
+    border: 1px solid green; 
+    border-radius: 3px;
+    padding: 3px;
+}
+
+aside{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+section{
+    flex: 1;
+    padding: 14px;
+    color: antiquewhite;
+}
+
+section p{
+    color: antiquewhite;
+    margin-top: 0;
+}
+
+aside div{
+    background-size: cover;
+    padding: 80px 8px 8px 8px;
+}
+
+#Brokeboi{
+    background: url(imgs/images.jpg);
+}
+
+#Brokeboi section{
+    background: rgba(0,0,0,0.3);
+    padding: 8px;
+    color: antiquewhite;
+}
+
+h5{
+    margin: 0;
+}
+
+#Brokeboi section p{
+    margin: 0;
+}
+
+#Mud{
+    background: url(imgs/images\ \(1\).jpg);
+    padding: 80px 8px 8px 8px;
+    margin-top: 7px;
+    background-size: cover;
+}
+
+#Mud section{
+    background: rgba(0,0,0,0.5);
+    padding: 8px;
+    color: antiquewhite;
+}
+
+#Mud section p{
+    margin: 0;
+}

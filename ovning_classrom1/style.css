@@ -1,0 +1,10 @@
+article{
+    display: flex;
+}
+
+section{
+    background-color: green;
+    margin: 8px;
+    color: white;
+    border-radius: 10px;
+}

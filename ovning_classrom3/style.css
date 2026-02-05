@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+section{
+    background-color: green;
+    margin: 7px;
+    border-radius: 10px;
+}

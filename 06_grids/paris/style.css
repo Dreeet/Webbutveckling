@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    "a b c"
+    "d . e"
+    "f g h"
+    "i txt txt" 
+    "j txt txt";
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+#a{
+    grid-area: a;
+    background-image: url(imgs/a.jpg);
+    background-size: cover;
+}
+
+#b{
+    grid-area: b;
+    background-image: url(imgs/b.webp);
+    background-size: cover;
+}
+
+#c{
+    grid-area: c;
+    background-image: url(imgs/c.jpg);
+    background-size: cover;
+    border-top-right-radius: 40px;
+}
+
+#d{
+    grid-area: d;
+    background-image: url(imgs/d.jpg);
+    background-size: cover;
+}
+
+#e{
+    grid-area: e;
+    background-image: url(imgs/e.jpg);
+    background-size: cover;
+
+}
+
+#f{
+    grid-area: f;
+    background-image: url(imgs/f.jpg);
+    background-size: cover;
+}
+
+#g{
+    grid-area: g;
+    background-image: url(imgs/g.webp);
+    background-size: cover;
+}
+
+#h{
+    grid-area: h;
+    background-image: url(imgs/h.jpg);
+    background-size: cover;
+    border-bottom-right-radius: 40px;
+}
+
+#i{
+    grid-area: i;
+    background-image: url(imgs/i.jpg);
+    background-size: cover;
+}
+
+#j{
+    grid-area: j;
+    background-image: url(imgs/j.jpg);
+    background-size: cover;
+}
+
+#txt{
+    grid-area: txt;
+    color: black;
+    font-family: "La Belle Aurore", cursive;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+
+
+
+

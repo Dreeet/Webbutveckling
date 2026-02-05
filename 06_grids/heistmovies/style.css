@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-auto-rows: minmax(100px, auto); */
+    grid-template-areas: 
+    "heat heat suspect suspect" 
+    "inside rififi rififi bank";
+    height: 100vh;
+}
+
+#heat{
+    grid-area: heat;
+    background-image: url(imgs/heat.jpg);
+    background-size: cover;
+
+}
+#suspects{
+    grid-area: suspect;
+    background-image: url(imgs/usualsuspects.jpg);
+    background-size: cover;
+}
+#Insideman{
+    grid-area: inside;
+    background-image: url(imgs/insideman.jpg);
+    background-size: cover;
+    
+}
+#Rififi{
+    grid-area: rififi;
+    background-image: url(imgs/rififi.jpg);
+    background-size: cover;
+
+
+}
+#Thebankjob{
+    grid-area: bank;
+    background-image: url(imgs/bankjob.jpg);
+    background-size: cover;
+
+
+}
+
+h2{
+    color: white;
+}
