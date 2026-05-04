@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(images/ps4.jpg);
+    background-size: cover;
+  }
+  
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a222f;
+    padding: 1rem;
+    color: white;
+    position: relative;
+  }
+  
+  .main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+
+
+  }
+
+  h2{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times 'Times New Roman', serif;
+  }
+
+  .snowfall{
+    background: #1a222f;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    padding-top: 10px;
+  }
+
+  .avatar{
+    background: #1a222f;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    padding-top: 10px;
+  }
+
+  .loki{
+    background: #1a222f;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    padding-top: 10px;
+  }
+
+  .snowfall img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+   }
+
+  .avatar img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+   }
+
+  .loki img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+   }
+  
+  .main div img{
+    width: 100%;
+  }
+
+  #mv {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  #menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  #menu a {
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+  
+  #menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* ===== Mobil ===== */
+  @media (max-width: 768px) {
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    #menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #333;
+      flex-direction: column;
+      overflow: hidden;
+  
+      max-height: 0;
+      transition: max-height 0.3s ease;
+    }
+  
+    #menu li {
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    #menu.active {
+      max-height: 300px; /* justera efter behov */
+    }
+  }
+
+  main{
+    padding: 1rem;
+    color: white;
+    /* min-height: 100vh; */
+    background: url(bg.webp);
+    background-size: cover;
+}
+
+footer{
+  width: 100%;
+  background: #1a222f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 0px;
+  font-size: x-small;
+}
+
