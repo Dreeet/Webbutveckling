@@ -4,14 +4,13 @@ body{
     background-image: url(../images/Lokibackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     min-height: 90vh; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: white;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 section#loif{
